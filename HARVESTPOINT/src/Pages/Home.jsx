@@ -95,8 +95,9 @@ function Home() {
    
 
     <Services/>
-    <Testimonial/>
     <WhoWeAre/>
+    <Testimonial/>
+    
 
     </>
   );
