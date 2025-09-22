@@ -5,6 +5,7 @@ import Home from './Pages/Home'
 
 import { Route, Routes } from 'react-router-dom'
 import Home from './Pages/Home'
+import WhoWeAre from './Pages/WhoWeAre'
 
 function AllRoutes() {
   return (
@@ -12,6 +13,7 @@ function AllRoutes() {
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/services' element={<Services/>}/>
+        <Route path="/whoweare" element={<WhoWeAre/>}/>
       </Routes>
     </div>
   )
