@@ -1,8 +1,17 @@
 import React from 'react'
+import Services from './Services'
+import Testimonial from './Testimonial'
 
 function Home() {
   return (
-    <div>Home</div>
+    <>
+    
+    {/* <div>Home</div> */}
+
+    <Services/>
+    <Testimonial/>
+
+    </>
   )
 }
 
