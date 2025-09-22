@@ -5,6 +5,7 @@ import Testimonial from './Testimonial'
 
 function Home() {
   return (
+    <>
     <div className="relative min-h-screen w-full overflow-hidden">
       {/* Background Image */}
       <div
@@ -88,6 +89,11 @@ function Home() {
       {/* Optional: Scroll indicator */}
       
     </div>
+
+    <Services/>
+    <Testimonial/>
+
+    </>
   );
 }
 
