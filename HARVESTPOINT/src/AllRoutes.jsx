@@ -9,6 +9,7 @@ function AllRoutes() {
       <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="/whoweare" element={<WhoWeAre/>}/>
+        
       </Routes>
     </div>
   )
