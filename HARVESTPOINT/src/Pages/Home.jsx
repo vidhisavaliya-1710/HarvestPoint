@@ -1,19 +1,21 @@
 import React from 'react';
 import banner from "../assets/images/banner.jpg";
+import Services from './Services'
+import Testimonial from './Testimonial'
 import WhoWeAre from './WhoWeAre';
 
 
 function Home() {
   return (
     <>
-      <div className="relative min-h-screen w-full overflow-hidden">
-        {/* Background Image */}
-        <div
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-          style={{
-            backgroundImage: `url(${banner})`,
-          }}
-        />
+    <div className="relative min-h-screen w-full overflow-hidden">
+      {/* Background Image */}
+      <div
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        style={{
+          backgroundImage: `url(${banner})`,
+        }}
+      />
 
         {/* Overlay (dark gradient/shadow) */}
         <div className="absolute inset-0 bg-black/40 z-0" />
@@ -88,8 +90,15 @@ function Home() {
         </div>
       </div>
 
-      {/* Next Section */}
-      <WhoWeAre />
+      {/* Optional: Scroll indicator */}
+      
+   
+
+    <Services/>
+    <WhoWeAre/>
+    <Testimonial/>
+    
+
     </>
   );
 }
