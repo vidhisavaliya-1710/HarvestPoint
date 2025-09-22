@@ -92,10 +92,11 @@ function Home() {
 
       {/* Optional: Scroll indicator */}
       
-    </div>
+   
 
     <Services/>
     <Testimonial/>
+    <WhoWeAre/>
 
     </>
   );
