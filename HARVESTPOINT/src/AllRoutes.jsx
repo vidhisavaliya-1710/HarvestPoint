@@ -11,7 +11,7 @@ function AllRoutes() {
       <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="/whoweare" element={<WhoWeAre/>}/>
-        <Route path="/what-we-do" element={<WhatWeDo/>} />
+        <Route path="/Farmers-Corner" element={<WhatWeDo/>} />
         <Route path="/how-we-do-it" element={<HowWeDoIt/>} />
       </Routes>
     </div>

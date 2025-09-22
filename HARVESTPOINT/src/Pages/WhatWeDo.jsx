@@ -1,7 +1,7 @@
 import React from 'react';
 import frame5 from '../assets/images/whatwedo.jpg'; // Update the path to your image location
 
-export default function WhatWeDo() {
+export default function FarmersCorner() {
   return (
     <section className="bg-[#F4F5F0] w-full">
       <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-stretch">
