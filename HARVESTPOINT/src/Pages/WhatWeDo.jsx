@@ -17,7 +17,7 @@ export default function FarmersCorner() {
         <div className="w-full lg:w-1/2 flex items-center px-8 lg:px-16 py-12">
           <div>
             <div className="mb-4">
-              <span className="text-green-700 font-semibold text-sm border-l-4 border-green-600 pl-3">What We Do</span>
+              <span className="text-green-700 font-semibold text-sm border-l-4 border-green-600 pl-3">Farmers’ Corner</span>
             </div>
             <h2 className="text-gray-900 font-extrabold text-[2.5rem] leading-tight mb-6" style={{fontFamily: 'inherit'}}>
               Our farmers are the heart<br />of HarvestPoint.

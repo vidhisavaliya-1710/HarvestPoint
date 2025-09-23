@@ -4,6 +4,7 @@ import Services from './Services'
 import Testimonial from './Testimonial'
 import WhoWeAre from './WhoWeAre';
 import GreenMovement from './GreenMovement';
+import WhatWeDo from './WhatWeDo';
 
 
 function Home() {
@@ -97,6 +98,7 @@ function Home() {
 
     <Services/>
     <WhoWeAre/>
+    <WhatWeDo/>
     <Testimonial/>
     <GreenMovement/>
     
