@@ -3,6 +3,7 @@ import { MapPin, Mail, Phone, Facebook, Linkedin, Menu, X } from 'lucide-react';
 import logo from '../assets/images/logo.png';
 import { FaEnvelopeOpen, FaFacebookF, FaLinkedinIn, FaLocationArrow } from "react-icons/fa6";
 import { FaPhoneAlt } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -12,7 +13,7 @@ const Header = () => {
   };
 
   return (
-    <header className="w-full">
+    <header className="w-full sticky top-0 z-50">
       {/* Top Bar */}
       <div className="bg-[#009444] text-white py-2 sm:py-3 md:py-4 px-4">
         <div className="max-w-5xl mx-auto flex flex-col sm:flex-row justify-between items-center text-xs sm:text-sm">
@@ -27,7 +28,7 @@ const Header = () => {
             </div>
             <div className="flex items-center space-x-1">
               <FaPhoneAlt size={12} className="sm:size-[14px]" />
-              <span>+91-XXXXXXXXXX</span>
+              <span>+91-7669258327</span>
             </div>
           </div>
           <div className="flex items-center space-x-3 sm:space-x-4 md:space-x-5 mt-1 sm:mt-0">
@@ -56,24 +57,24 @@ const Header = () => {
 
             {/* Desktop Navigation */}
             <nav className="hidden lg:flex items-center space-x-6 xl:space-x-8">
-              <a href="#" className="text-[#0D3C00] hover:text-[#009444] font-medium transition-colors py-1 hover:border-b-2 border-[#009444]">
+              <Link to='/' className="text-[#0D3C00] hover:text-[#009444] font-medium transition-colors py-1 hover:border-b-2 border-[#009444]">
                 Home
-              </a>
-              <a href="#" className="text-[#0D3C00] hover:text-[#009444] font-medium transition-colors py-1 hover:border-b-2 border-[#009444]">
+              </Link>
+              <Link to='/whoweare' className="text-[#0D3C00] hover:text-[#009444] font-medium transition-colors py-1 hover:border-b-2 border-[#009444]">
                 About Us
-              </a>
-              <a href="#" className="text-[#0D3C00] hover:text-[#009444] font-medium transition-colors py-1 hover:border-b-2 border-[#009444]">
+              </Link>
+              <Link to='/product' className="text-[#0D3C00] hover:text-[#009444] font-medium transition-colors py-1 hover:border-b-2 border-[#009444]">
                 Products
-              </a>
-              <a href="#" className="text-[#0D3C00] hover:text-[#009444] font-medium transition-colors py-1 hover:border-b-2 border-[#009444]">
+              </Link>
+              <Link to='/Farmers-Corner' className="text-[#0D3C00] hover:text-[#009444] font-medium transition-colors py-1 hover:border-b-2 border-[#009444]">
                 Farmers' Corner
-              </a>
-              <a href="#" className="text-[#0D3C00] hover:text-[#009444] font-medium transition-colors py-1 hover:border-b-2 border-[#009444]">
+              </Link>
+              <Link to='/blog' className="text-[#0D3C00] hover:text-[#009444] font-medium transition-colors py-1 hover:border-b-2 border-[#009444]">
                 News & Articles
-              </a>
-              <a href="#" className="text-[#0D3C00] hover:text-[#009444] font-medium transition-colors py-1 hover:border-b-2 border-[#009444]">
+              </Link>
+              <Link to='/contactus' className="text-[#0D3C00] hover:text-[#009444] font-medium transition-colors py-1 hover:border-b-2 border-[#009444]">
                 Contact Us
-              </a>
+              </Link>
               <button className="bg-[#ff9100] text-white px-4 py-2 md:px-6 md:py-2 rounded-md font-medium hover:bg-[#e68300] transition-colors">
                 Partner with Us
               </button>
