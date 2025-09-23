@@ -65,7 +65,7 @@ export default function HowWeDoIt() {
                             </div>
                             
                             {/* Top-right */}
-                            <div className="w-50 h-32 sm:h-40 md:h-44 lg:h-48 mt-3 md:mt-4 lg:mt-6 overflow-hidden transition-all duration-300 rounded-tr-[20px] md:rounded-tr-[30px] lg:rounded-tr-[40px]">
+                            <div className="lg:w-53 sm:w-50 mr-8 h-32 sm:h-40 md:h-44 lg:h-48 mt-0 md:mt-3 lg:mt-8 overflow-hidden transition-all duration-300 rounded-tr-[20px] md:rounded-tr-[30px] lg:rounded-tr-[40px]">
                                 <img
                                     src={howedolt3}
                                     alt="Fast delivery system"
@@ -74,7 +74,7 @@ export default function HowWeDoIt() {
                             </div>
                             
                             {/* Bottom-left */}
-                            <div className="w-53 ml-8 ms-[20px] h-32 sm:h-40 md:h-44 lg:h-48 -mt-2 md:-mt-3 lg:-mt-0 overflow-hidden transition-all duration-300 rounded-bl-[20px] md:rounded-bl-[30px] lg:rounded-bl-[40px]">
+                            <div className="lg:w-53 sm:w-50 ml-8 lg:ms-[30px] md:ms-[45px] h-32 sm:h-40 md:h-44 lg:h-48 -mt-0 md:mt-0 lg:-mt-0 overflow-hidden transition-all duration-300 rounded-bl-[20px] md:rounded-bl-[30px] lg:rounded-bl-[40px]">
                                 <img
                                     src={howedolt4}
                                     alt="Customer satisfaction"
@@ -93,7 +93,7 @@ export default function HowWeDoIt() {
                         </div>
                         
                         {/* Circle Element */}
-                        <div className="absolute -bottom-8 -right-8 sm:-bottom-10 sm:-right-10 md:-bottom-12 md:-right-12 lg:-bottom-12 lg:-right-10 w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 lg:w-32 lg:h-32 z-0">
+                        <div className="absolute -bottom-8 -right-4 sm:-bottom-10 sm:-right-10 md:-bottom-12 md:-right-12 lg:-bottom-12 lg:-right-10 w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 lg:w-32 lg:h-32 z-0">
                             <img src={circule} className='w-full h-full object-contain' alt="Decorative circle" />
                         </div>
                     </div>
