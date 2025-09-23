@@ -3,6 +3,7 @@ import banner from "../assets/images/banner.jpg";
 import Services from './Services'
 import Testimonial from './Testimonial'
 import WhoWeAre from './WhoWeAre';
+import GreenMovement from './GreenMovement';
 import WhatWeDo from './WhatWeDo';
 import Blog from './Blog';
 import Contactus from './Contactus';
@@ -101,6 +102,7 @@ function Home() {
     <WhoWeAre/>
     <WhatWeDo/>
     <Testimonial/>
+    <GreenMovement/>
     <Blog/>
     <Contactus/>
     
