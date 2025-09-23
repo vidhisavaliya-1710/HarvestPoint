@@ -15,11 +15,11 @@ const WhoWeAre = () => {
               <img
                 src={about}
                 alt="Sustainable farming field with green crops in rows"
-                className="w-full"
+                className="w-full md:[400px]"
               />
               
               {/* Decorative dots pattern */}
-             <div className="absolute  -bottom-0 -right-10 grid grid-cols-10 gap-1 opacity-30">
+             <div className="absolute  -bottom-0 -right-10 md:-right-6 grid grid-cols-10 gap-1 opacity-30">
   {[...Array(50)].map((_, i) => (
     <div key={i} className="w-2 h-2 bg-green-400 rounded-full"></div>
   ))}

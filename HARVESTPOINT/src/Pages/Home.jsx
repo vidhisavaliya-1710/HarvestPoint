@@ -4,6 +4,8 @@ import Services from './Services'
 import Testimonial from './Testimonial'
 import WhoWeAre from './WhoWeAre';
 import WhatWeDo from './WhatWeDo';
+import Blog from './Blog';
+import Contactus from './Contactus';
 
 
 function Home() {
@@ -99,6 +101,8 @@ function Home() {
     <WhoWeAre/>
     <WhatWeDo/>
     <Testimonial/>
+    <Blog/>
+    <Contactus/>
     
 
     </>
