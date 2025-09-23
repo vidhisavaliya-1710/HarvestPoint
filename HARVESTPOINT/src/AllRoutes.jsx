@@ -5,6 +5,7 @@ import Home from './Pages/Home'
 import WhoWeAre from './Pages/WhoWeAre'
 import WhatWeDo from './Pages/WhatWeDo'
 import HowWeDoIt from './Pages/HowWeDoIt'
+import GreenMovement from './Pages/GreenMovement'
 
 function AllRoutes() {
   return (
@@ -15,6 +16,7 @@ function AllRoutes() {
         <Route path="/whoweare" element={<WhoWeAre/>}/>
         <Route path="/Farmers-Corner" element={<WhatWeDo/>} />
         <Route path="/how-we-do-it" element={<HowWeDoIt/>} />
+        <Route path="/green-movement" element={<GreenMovement/>}/>
         
       </Routes>
     </div>

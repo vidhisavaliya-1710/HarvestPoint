@@ -3,6 +3,7 @@ import banner from "../assets/images/banner.jpg";
 import Services from './Services'
 import Testimonial from './Testimonial'
 import WhoWeAre from './WhoWeAre';
+import GreenMovement from './GreenMovement';
 
 
 function Home() {
@@ -97,6 +98,7 @@ function Home() {
     <Services/>
     <WhoWeAre/>
     <Testimonial/>
+    <GreenMovement/>
     
 
     </>
