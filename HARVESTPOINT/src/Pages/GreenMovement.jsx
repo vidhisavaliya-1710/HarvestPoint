@@ -123,17 +123,17 @@ function GreenMovement() {
       </div>
 
       {/* Bottom Section with Background Image */}
-      <div className="relative min-h-[400px] sm:min-h-[500px] md:min-h-[600px] lg:h-100 bg-cover bg-center bg-no-repeat" style={{
+      <div className="relative min-h-[400px] sm:min-h-[450px] md:min-h-[500px] lg:h-90 bg-cover bg-center bg-no-repeat" style={{
         backgroundImage: `url(${beHealthy})`
       }}>
         {/* Overlay Cards */}
-        <div className="absolute -top-3 sm:top-8 md:-top-5 lg:-top-40 left-4 right-4 sm:left-4 sm:right-14 flex flex-col sm:flex-row gap-4  z-10 justify-center">
+        <div className="absolute -top-3 sm:top-8 md:-top-5 lg:-top-40 left-4 right-4 sm:left-4 sm:right-14 flex flex-col sm:flex-row gap-4  z-10 justify-center items-center">
           {/* Quality Organic Food Store Card */}
-          <div className="relative overflow-hidden sm:w-1/2">
+          <div className="relative overflow-hidden sm:w-1/2 items-center lg:ml-30 ">
             <img
               src={healthy1}
               alt="Organic vegetables"
-              className='h-38 sm:h-40 md:h-56 lg:h-70 w-full object-cover rounded-xl sm:rounded-2xl shadow-lg'
+              className='h-38 sm:h-40 md:h-56 lg:h-70 w-[500px] object-cover rounded-xl sm:rounded-2xl shadow-lg'
             />
           </div>
 
@@ -142,21 +142,21 @@ function GreenMovement() {
             <img
               src={healthy2}
               alt="Fresh healthy products"
-              className='h-38 sm:h-40 md:h-56 lg:h-70 w-full object-cover rounded-xl sm:rounded-2xl shadow-lg'
+              className='h-38 sm:h-40 md:h-56 lg:h-70 w-[500px] text-center object-cover rounded-xl sm:rounded-2xl shadow-lg'
             />
           </div>
         </div>
 
         {/* Main Content */}
-        <div className='pt-48 sm:pt-56 md:pt-64 lg:pt-80'>
+        <div className='pt-48 sm:pt-56 md:pt-50 lg:mt-80'>
           <div className="flex items-center justify-center px-4 sm:px-6 md:px-8">
-            <div className="text-center text-white max-w-4xl mx-auto pb-8 sm:pb-12">
+            <div className="text-center text-white max-w-4xl mx-auto  sm:pb-12">
               <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold mb-4 sm:mb-6 md:mb-8 leading-tight">
                 Be Healthy & Eat Only Fresh<br />
                 Organic Vegetables
               </h1>
 
-              <button className="bg-green-500 hover:bg-green-600 text-white font-semibold px-6 py-3 sm:px-8 sm:py-4 rounded-full text-sm sm:text-base md:text-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
+              <button className="bg-[#4baf47] hover:bg-green-600 text-white font-semibold px-6 py-3 sm:px-8 sm:py-4 rounded-2xl text-sm sm:text-base md:text-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
                 Join as a Partner
               </button>
             </div>
