@@ -169,9 +169,7 @@ function ContactUs() {
                 <p className="text-gray-600 leading-relaxed mb-4 sm:mb-6 text-sm sm:text-base text-center max-w-md">
                   Let's embody your beautiful ideas together, simplify the way you visualize your next big things.
                 </p>
-                <button className="bg-green-800 hover:bg-green-900 text-white font-semibold py-2 sm:py-3 px-8 sm:px-12 rounded transition-colors duration-200 text-sm sm:text-base">
-                  Try now
-                </button>
+                
               </div>
 
               {/* Right Image (Top aligned) */}

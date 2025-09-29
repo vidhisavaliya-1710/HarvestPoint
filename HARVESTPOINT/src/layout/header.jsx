@@ -63,7 +63,7 @@ const Header = () => {
               <Link to='/whoweare' className="text-[#0D3C00] hover:text-[#009444] font-medium transition-colors py-1 hover:border-b-2 border-[#009444]">
                 About Us
               </Link>
-              <Link to='/product' className="text-[#0D3C00] hover:text-[#009444] font-medium transition-colors py-1 hover:border-b-2 border-[#009444]">
+              <Link to='/products' className="text-[#0D3C00] hover:text-[#009444] font-medium transition-colors py-1 hover:border-b-2 border-[#009444]">
                 Products
               </Link>
               <Link to='/Farmers-Corner' className="text-[#0D3C00] hover:text-[#009444] font-medium transition-colors py-1 hover:border-b-2 border-[#009444]">
@@ -72,12 +72,15 @@ const Header = () => {
               <Link to='/blog' className="text-[#0D3C00] hover:text-[#009444] font-medium transition-colors py-1 hover:border-b-2 border-[#009444]">
                 News & Articles
               </Link>
-              <Link to='/contactus' className="text-[#0D3C00] hover:text-[#009444] font-medium transition-colors py-1 hover:border-b-2 border-[#009444]">
-                Contact Us
+              <Link to='/carrers' className="text-[#0D3C00] hover:text-[#009444] font-medium transition-colors py-1 hover:border-b-2 border-[#009444]">
+                Carrers
               </Link>
+              <Link to='/contactus'>
+              
               <button className="bg-[#ff9100] text-white px-4 py-2 md:px-6 md:py-2 rounded-md font-medium hover:bg-[#e68300] transition-colors">
                 Partner with Us
               </button>
+              </Link>
             </nav>
 
             {/* Mobile Menu Button */}
