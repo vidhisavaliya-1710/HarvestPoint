@@ -3,6 +3,7 @@ import { Facebook, Twitter, Instagram, Linkedin, MapPin, Phone, Mail } from 'luc
 import footerlogo from '../assets/images/footerlogo.png'
 import {  FaEnvelopeOpen, FaFacebookF, FaInstagram, FaLinkedinIn, FaLocationArrow, FaTwitter } from "react-icons/fa6";
 import { FaPhoneAlt } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -72,30 +73,26 @@ const Footer = () => {
             <h4 className="text-orange-400 font-semibold text-lg mb-4">Quick Links</h4>
             <ul className="space-y-3">
               <li>
-                <a href="#" className="text-gray-300 hover:text-white transition-colors duration-300">
+                <Link to='/' className="text-gray-300 hover:text-white transition-colors duration-300">
                   Home
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="text-gray-300 hover:text-white transition-colors duration-300">
+                <Link to='' className="text-gray-300 hover:text-white transition-colors duration-300">
                   Products
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="text-gray-300 hover:text-white transition-colors duration-300">
+                <Link to='/Farmers-Corner' className="text-gray-300 hover:text-white transition-colors duration-300">
                   Farmers' Corner
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="text-gray-300 hover:text-white transition-colors duration-300">
+                <Link to='/whoweare' className="text-gray-300 hover:text-white transition-colors duration-300">
                   About Us
-                </a>
+                </Link>
               </li>
-              <li>
-                <a href="#" className="text-gray-300 hover:text-white transition-colors duration-300">
-                  Sustainability
-                </a>
-              </li>
+             
             </ul>
           </div>
 
@@ -104,19 +101,19 @@ const Footer = () => {
             <h4 className="text-orange-400 font-semibold text-lg mb-4">Services</h4>
             <ul className="space-y-3">
               <li>
-                <a href="#" className="text-gray-300 hover:text-white transition-colors duration-300">
+                <Link to='' className="text-gray-300 hover:text-white transition-colors duration-300">
                   Careers
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="text-gray-300 hover:text-white transition-colors duration-300">
-                  Delivery Information
-                </a>
+                <Link to="/blog" className="text-gray-300 hover:text-white transition-colors duration-300">
+                  News & Articles
+                </Link>
               </li>
               <li>
-                <a href="#" className="text-gray-300 hover:text-white transition-colors duration-300">
+                <Link to="/contactUs" className="text-gray-300 hover:text-white transition-colors duration-300">
                   Contact Us
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -147,7 +144,7 @@ const Footer = () => {
               <div>
                 <h5 className="font-semibold text-white mb-1">Phone</h5>
                 <p className="text-gray-300 text-sm">
-                  +91-XXXXXXXXXX
+                  +91-7669258327
                 </p>
               </div>
             </div>

@@ -132,7 +132,7 @@ function ContactUs() {
                   <FaPhoneAlt className="w-4 h-4 sm:w-5 sm:h-5 text-[#009444] flex-shrink-0" />
                   <div>
                     <p className="text-[#000000] text-sm sm:text-md font-normal">+91-7291071278</p>
-                    <p className="text-[#000000] text-sm sm:text-md font-normal ms-0 sm:ms-9 mt-1">+91-7669258327</p>
+                    <p className="text-[#000000] text-sm sm:text-md font-normal ms-0 sm:ms-0 mt-1">+91-7669258327</p>
                   </div>
                 </div>
                 
