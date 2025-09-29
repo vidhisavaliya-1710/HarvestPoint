@@ -5,6 +5,7 @@ import greenmovement3 from "../assets/images/greenmovement3.png"
 import beHealthy from "../assets/images/behealthy.png"
 import healthy1 from "../assets/images/healthy1.png"
 import healthy2 from "../assets/images/healthy2.png"
+import { Link } from 'react-router-dom';
 
 function GreenMovement() {
   return (
@@ -156,9 +157,12 @@ function GreenMovement() {
                 Organic Vegetables
               </h1>
 
+              <Link to='/contactus'>
+              
               <button className="bg-[#4baf47] hover:bg-green-600 text-white font-semibold px-6 py-3 sm:px-8 sm:py-4 rounded-2xl text-sm sm:text-base md:text-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
                 Join as a Partner
               </button>
+              </Link>
             </div>
           </div>
 

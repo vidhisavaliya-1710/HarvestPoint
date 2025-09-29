@@ -7,6 +7,8 @@ import GreenMovement from './GreenMovement';
 import WhatWeDo from './WhatWeDo';
 import Blog from './Blog';
 import Contactus from './Contactus';
+import Product from './Product';
+import { Link } from 'react-router-dom';
 import HowWeDoIt from './HowWeDoIt';
 import Career from './Carrer';
 
@@ -45,7 +47,8 @@ function Home() {
             {/* Action Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center items-center">
               {/* Button 1 */}
-              <button className="group flex items-center justify-between gap-3 
+              <Link to='/products'>
+                <button className="group flex items-center justify-between gap-3 
                 bg-[#009444] hover:bg-green-700 text-white font-semibold 
                 py-4 px-6 md:py-5 md:px-8 transition-all duration-300 shadow-md hover:shadow-lg 
                 w-full sm:w-auto min-w-[200px] sm:min-w-[220px] 
@@ -67,8 +70,10 @@ function Home() {
                   />
                 </svg>
               </button>
+              </Link>
 
               {/* Button 2 */}
+              <Link to='/contactus'>
               <button className="group flex items-center justify-between gap-3 
                 bg-[#009444] hover:bg-green-700 text-white font-semibold 
                 py-4 px-6 md:py-5 md:px-8 transition-all duration-300 shadow-md hover:shadow-lg 
@@ -91,6 +96,7 @@ function Home() {
                   />
                 </svg>
               </button>
+              </Link>
             </div>
           </div>
         </div>
@@ -103,6 +109,7 @@ function Home() {
     <Services/>
     <WhoWeAre/>
     <WhatWeDo/>
+    <Product/>
     <Testimonial/>
     <GreenMovement/>
     <HowWeDoIt/>
