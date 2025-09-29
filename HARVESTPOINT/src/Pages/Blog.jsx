@@ -1,7 +1,7 @@
 import React from 'react';
 import { Calendar, MessageCircle } from 'lucide-react';
 import blog from '../assets/images/blog.png';
-import blog1 from '../assets/images/blog1.png';
+import blog1 from '../assets/images/blog2.png';
 import blog2 from '../assets/images/blog3.png';
 import { FaRegCalendarCheck, FaRegComments } from 'react-icons/fa';
 

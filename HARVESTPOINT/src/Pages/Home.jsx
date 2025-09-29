@@ -7,6 +7,7 @@ import GreenMovement from './GreenMovement';
 import WhatWeDo from './WhatWeDo';
 import Blog from './Blog';
 import Contactus from './Contactus';
+import HowWeDoIt from './HowWeDoIt';
 
 
 function Home() {
@@ -103,6 +104,7 @@ function Home() {
     <WhatWeDo/>
     <Testimonial/>
     <GreenMovement/>
+    <HowWeDoIt/>
     <Blog/>
     <Contactus/>
     
