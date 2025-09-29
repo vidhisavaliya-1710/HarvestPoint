@@ -19,11 +19,11 @@ function AllRoutes() {
         <Route path="/Farmers-Corner" element={<WhatWeDo/>} />
         <Route path="/how-we-do-it" element={<HowWeDoIt/>} />
         <Route path='/blog' element={<Blog/>}/>
-        <Route  path='/contactUs' element={<ContactUs/>}/>
+        <Route path='/contactUs' element={<ContactUs/>}/>
         <Route path="/green-movement" element={<GreenMovement/>}/>
         
       </Routes>
-    </div>
+    </div> 
   )
 }
 
