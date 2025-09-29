@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { MapPin, Mail, Phone, Facebook, Linkedin, Menu, X } from 'lucide-react';
 import logo from '../assets/images/logo.png';
 import { FaEnvelopeOpen, FaFacebookF, FaLinkedinIn, FaLocationArrow } from "react-icons/fa6";
 import { FaPhoneAlt } from "react-icons/fa";
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -11,6 +11,14 @@ const Header = () => {
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
   };
+  const location = useLocation();
+  const { pathname } = useLocation();
+
+
+  useEffect(() => {
+    // Scroll to top when pathname changes
+    window.scrollTo(0, 0);
+  }, [pathname]);
 
   return (
     <header className="w-full sticky top-0 z-50">
@@ -32,10 +40,10 @@ const Header = () => {
             </div>
           </div>
           <div className="flex items-center space-x-3 sm:space-x-4 md:space-x-5 mt-1 sm:mt-0">
-            <a href="#" className="hover:text-green-200 transition-colors">
+            <a href="#" className="hover:text-green-200 focus:text-green-200 transition-colors">
               <FaFacebookF size={14} className="sm:size-[16px]" />
             </a>
-            <a href="#" className="hover:text-green-200 transition-colors">
+            <a href="#" className="hover:text-green-200 focus:text-green-200 transition-colors">
               <FaLinkedinIn size={14} className="sm:size-[16px]" />
             </a>
           </div>
@@ -48,28 +56,28 @@ const Header = () => {
           <div className="flex justify-between items-center py-2 md:py-3">
             {/* Logo */}
             <div className="flex-shrink-0">
-              <img 
-                src={logo} 
-                alt="Harvest Point Agro Solutions" 
+              <img
+                src={logo}
+                alt="Harvest Point Agro Solutions"
                 className="h-10 sm:h-12 md:h-14 w-auto"
               />
             </div>
 
             {/* Desktop Navigation */}
             <nav className="hidden lg:flex items-center space-x-6 xl:space-x-8">
-              <Link to='/' className="text-[#0D3C00] hover:text-[#009444] font-medium transition-colors py-1 hover:border-b-2 border-[#009444]">
+              <Link to='/' className="text-[#0D3C00] hover:text-[#009444] focus:text-[#009444] font-medium transition-colors py-1 hover:border-b-2 focus:border-b-2 border-[#009444] outline-none">
                 Home
               </Link>
-              <Link to='/whoweare' className="text-[#0D3C00] hover:text-[#009444] font-medium transition-colors py-1 hover:border-b-2 border-[#009444]">
+              <Link to='/whoweare' className="text-[#0D3C00] hover:text-[#009444] focus:text-[#009444] font-medium transition-colors py-1 hover:border-b-2 focus:border-b-2 border-[#009444] outline-none">
                 About Us
               </Link>
               <Link to='/products' className="text-[#0D3C00] hover:text-[#009444] font-medium transition-colors py-1 hover:border-b-2 border-[#009444]">
                 Products
               </Link>
-              <Link to='/Farmers-Corner' className="text-[#0D3C00] hover:text-[#009444] font-medium transition-colors py-1 hover:border-b-2 border-[#009444]">
+              <Link to='/Farmers-Corner' className="text-[#0D3C00] hover:text-[#009444] focus:text-[#009444] font-medium transition-colors py-1 hover:border-b-2 focus:border-b-2 border-[#009444] outline-none">
                 Farmers' Corner
               </Link>
-              <Link to='/blog' className="text-[#0D3C00] hover:text-[#009444] font-medium transition-colors py-1 hover:border-b-2 border-[#009444]">
+              <Link to='/blog' className="text-[#0D3C00] hover:text-[#009444] focus:text-[#009444] font-medium transition-colors py-1 hover:border-b-2 focus:border-b-2 border-[#009444] outline-none">
                 News & Articles
               </Link>
               <Link to='/carrers' className="text-[#0D3C00] hover:text-[#009444] font-medium transition-colors py-1 hover:border-b-2 border-[#009444]">
@@ -86,7 +94,7 @@ const Header = () => {
             {/* Mobile Menu Button */}
             <button
               onClick={toggleMobileMenu}
-              className="lg:hidden text-gray-700 hover:text-green-700 p-2"
+              className="lg:hidden text-gray-700 hover:text-green-700 focus:text-green-700 p-2"
               aria-label="Toggle menu"
             >
               {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
@@ -97,25 +105,25 @@ const Header = () => {
           {isMobileMenuOpen && (
             <div className="lg:hidden border-t border-gray-200 py-4">
               <nav className="flex flex-col space-y-4">
-                <a href="#" className="text-green-700 font-medium py-2 border-l-4 border-green-600 pl-4">
+                <a href="#" className="text-green-700 font-medium py-2 border-l-4 border-green-600 pl-4 hover:text-green-700 focus:text-green-700">
                   Home
                 </a>
-                <a href="#" className="text-gray-700 hover:text-green-700 font-medium py-2 pl-4 transition-colors">
+                <a href="#" className="text-gray-700 hover:text-green-700 focus:text-green-700 font-medium py-2 pl-4 transition-colors">
                   About Us
                 </a>
-                <a href="#" className="text-gray-700 hover:text-green-700 font-medium py-2 pl-4 transition-colors">
+                <a href="#" className="text-gray-700 hover:text-green-700 focus:text-green-700 font-medium py-2 pl-4 transition-colors">
                   Products
                 </a>
-                <a href="#" className="text-gray-700 hover:text-green-700 font-medium py-2 pl-4 transition-colors">
+                <a href="#" className="text-gray-700 hover:text-green-700 focus:text-green-700 font-medium py-2 pl-4 transition-colors">
                   Farmers' Corner
                 </a>
-                <a href="#" className="text-gray-700 hover:text-green-700 font-medium py-2 pl-4 transition-colors">
+                <a href="#" className="text-gray-700 hover:text-green-700 focus:text-green-700 font-medium py-2 pl-4 transition-colors">
                   News & Articles
                 </a>
-                <a href="#" className="text-gray-700 hover:text-green-700 font-medium py-2 pl-4 transition-colors">
+                <a href="#" className="text-gray-700 hover:text-green-700 focus:text-green-700 font-medium py-2 pl-4 transition-colors">
                   Contact Us
                 </a>
-                <button className="bg-[#ff9100] text-white px-6 py-3 rounded-md font-medium mx-4 mt-4 hover:bg-[#e68300] transition-colors">
+                <button className="bg-[#ff9100] text-white px-6 py-3 rounded-md font-medium mx-4 mt-4 hover:bg-[#e68300] focus:bg-[#e68300] transition-colors">
                   Partner with Us
                 </button>
               </nav>

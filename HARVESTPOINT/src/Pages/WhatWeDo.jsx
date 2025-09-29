@@ -1,10 +1,10 @@
 import React from 'react';
-import frame5 from '../assets/images/whatwedo.jpg'; // Update the path to your image location
+import frame5 from '../assets/images/whatwedo.png'; // Update the path to your image location
 
 export default function FarmersCorner() {
   return (
     <section className="bg-[#F4F5F0] w-full">
-      <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-stretch">
+      <div className="max-w-7xl mx-auto flex flex-col lg:flex-row-reverse items-stretch">
         {/* Left Image */}
         <div className="w-full lg:w-1/2 h-[340px] lg:h-auto">
           <img

@@ -9,6 +9,7 @@ import Blog from './Blog';
 import Contactus from './Contactus';
 import Product from './Product';
 import { Link } from 'react-router-dom';
+import HowWeDoIt from './HowWeDoIt';
 
 
 function Home() {
@@ -110,6 +111,7 @@ function Home() {
     <Product/>
     <Testimonial/>
     <GreenMovement/>
+    <HowWeDoIt/>
     <Blog/>
     <Contactus/>
     

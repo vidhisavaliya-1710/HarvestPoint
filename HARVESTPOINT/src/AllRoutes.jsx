@@ -23,11 +23,11 @@ function AllRoutes() {
         <Route path='/products' element={<Product/>}/>
         <Route path='/carrers' element={<Carrers/>}/>
         <Route path='/blog' element={<Blog/>}/>
-        <Route  path='/contactUs' element={<ContactUs/>}/>
+        <Route path='/contactUs' element={<ContactUs/>}/>
         <Route path="/green-movement" element={<GreenMovement/>}/>
         
       </Routes>
-    </div>
+    </div> 
   )
 }
 
