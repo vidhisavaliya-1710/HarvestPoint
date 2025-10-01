@@ -105,27 +105,27 @@ const Header = () => {
           {isMobileMenuOpen && (
             <div className="lg:hidden border-t border-gray-200 py-4">
               <nav className="flex flex-col space-y-4">
-                <a href="#" className="text-green-700 font-medium py-2 border-l-4 border-green-600 pl-4 hover:text-green-700 focus:text-green-700">
+                <Link to='/' className="text-green-700 font-medium py-2 border-l-4 border-green-600 pl-4 hover:text-green-700 focus:text-green-700">
                   Home
-                </a>
-                <a href="#" className="text-gray-700 hover:text-green-700 focus:text-green-700 font-medium py-2 pl-4 transition-colors">
+                </Link>
+                <Link to='/whoweare' className="text-gray-700 hover:text-green-700 focus:text-green-700 font-medium py-2 pl-4 transition-colors">
                   About Us
-                </a>
-                <a href="#" className="text-gray-700 hover:text-green-700 focus:text-green-700 font-medium py-2 pl-4 transition-colors">
+                </Link>
+                <Link to='/products' className="text-gray-700 hover:text-green-700 focus:text-green-700 font-medium py-2 pl-4 transition-colors">
                   Products
-                </a>
-                <a href="#" className="text-gray-700 hover:text-green-700 focus:text-green-700 font-medium py-2 pl-4 transition-colors">
+                </Link>
+                <Link to='/Farmers-Corner' className="text-gray-700 hover:text-green-700 focus:text-green-700 font-medium py-2 pl-4 transition-colors">
                   Farmers' Corner
-                </a>
-                <a href="#" className="text-gray-700 hover:text-green-700 focus:text-green-700 font-medium py-2 pl-4 transition-colors">
+                </Link>
+                <Link to='/blog' className="text-gray-700 hover:text-green-700 focus:text-green-700 font-medium py-2 pl-4 transition-colors">
                   News & Articles
-                </a>
-                <a href="#" className="text-gray-700 hover:text-green-700 focus:text-green-700 font-medium py-2 pl-4 transition-colors">
-                  Contact Us
-                </a>
-                <button className="bg-[#ff9100] text-white px-6 py-3 rounded-md font-medium mx-4 mt-4 hover:bg-[#e68300] focus:bg-[#e68300] transition-colors">
+                </Link>
+                <Link to='/carrers' className="text-gray-700 hover:text-green-700 focus:text-green-700 font-medium py-2 pl-4 transition-colors">
+                  Carrers
+                </Link>
+                <Link to='/contactus' className="bg-[#ff9100] text-white px-6 py-3 rounded-md font-medium mx-4 mt-4 hover:bg-[#e68300] focus:bg-[#e68300] transition-colors">
                   Partner with Us
-                </button>
+                </Link>
               </nav>
             </div>
           )}
