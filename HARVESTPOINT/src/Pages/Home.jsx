@@ -10,6 +10,7 @@ import Contactus from './Contactus';
 import Product from './Product';
 import { Link } from 'react-router-dom';
 import HowWeDoIt from './HowWeDoIt';
+import Career from './Carrer';
 
 
 function Home() {
@@ -113,6 +114,7 @@ function Home() {
     <GreenMovement/>
     <HowWeDoIt/>
     <Blog/>
+    <Career/>
     <Contactus/>
     
 
