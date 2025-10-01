@@ -10,6 +10,7 @@ import ContactUs from './Pages/Contactus'
 import GreenMovement from './Pages/GreenMovement'
 import Product from './Pages/Product'
 import Career from './Pages/Carrer'
+import SingleBlog from './Pages/SingleBlog'
 
 function AllRoutes() {
   return (
@@ -25,6 +26,7 @@ function AllRoutes() {
         <Route path='/contactUs' element={<ContactUs/>}/>
         <Route path="/green-movement" element={<GreenMovement/>}/>
         <Route path="/carrers" element={<Career/>}/>
+        <Route path='/SingleBlog' element={<SingleBlog/>}/>
         
       </Routes>
     </div> 

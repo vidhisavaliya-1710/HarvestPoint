@@ -4,6 +4,7 @@ import blog from '../assets/images/blog.png';
 import blog1 from '../assets/images/blog2.png';
 import blog2 from '../assets/images/blog3.png';
 import { FaRegCalendarCheck, FaRegComments } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const Blog = () => {
   const articles = [
@@ -50,6 +51,10 @@ const Blog = () => {
         {/* Articles Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
           {articles.map((article) => (
+
+            <Link to="/SingleBlog"   // ✅ Route attached here
+              key={article.id} 
+              className="block">
             <article 
               key={article.id}
               className="overflow-hidden  transition-all duration-300 ease-in-out"
@@ -96,6 +101,7 @@ const Blog = () => {
 
               </div>
             </article>
+            </Link>
           ))}
         </div>
       </div>
