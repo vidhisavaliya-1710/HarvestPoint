@@ -19,11 +19,12 @@ const WhoWeAre = () => {
               />
               
               {/* Decorative dots pattern */}
-             <div className="absolute  -bottom-0 -right-10 md:-right-6 grid grid-cols-10 gap-1 opacity-30">
+      <div className="absolute bottom-0 -right-2 grid grid-cols-10 gap-1 opacity-30 overflow-x-auto max-w-full">
   {[...Array(50)].map((_, i) => (
     <div key={i} className="w-2 h-2 bg-green-400 rounded-full"></div>
   ))}
 </div>
+
 
             </div>
             
