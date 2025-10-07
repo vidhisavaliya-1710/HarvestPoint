@@ -131,7 +131,7 @@ const Footer = () => {
               <div>
                 <h5 className="font-semibold text-white mb-1">Address</h5>
                 <p className="text-gray-300 text-sm">
-                  Gurgaon, Haryana, India
+                 Unit No. 453, 4th Floor, Spaze I-Tech Park Tower B, Gurgaon, Haryana, India, 122018
                 </p>
               </div>
             </div>
