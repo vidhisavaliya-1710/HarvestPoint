@@ -20,7 +20,7 @@ export default function FarmersCorner() {
               <span className="text-green-700 font-semibold text-sm border-l-4 border-green-600 pl-3">Farmers’ Corner</span>
             </div>
             <h2 className="text-gray-900 font-extrabold text-[2.5rem] leading-tight mb-6" style={{fontFamily: 'inherit'}}>
-              Our farmers are the heart<br />of HarvestPoint.
+              Our farmers are the heart of HarvestPoint.
             </h2>
             <p className="mt-2 mb-6 text-gray-700 text-sm">
               Our farmers are the heart of HarvestPoint. We support them so they can do their best and get what they deserve.

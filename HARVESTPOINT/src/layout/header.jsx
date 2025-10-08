@@ -71,9 +71,9 @@ const Header = () => {
               <Link to='/whoweare' className="text-[#0D3C00] hover:text-[#009444] focus:text-[#009444] font-medium transition-colors py-1 hover:border-b-2 focus:border-b-2 border-[#009444] outline-none">
                 About Us
               </Link>
-              <Link to='/products' className="text-[#0D3C00] hover:text-[#009444] font-medium transition-colors py-1 hover:border-b-2 border-[#009444]">
+              {/* <Link to='/products' className="text-[#0D3C00] hover:text-[#009444] font-medium transition-colors py-1 hover:border-b-2 border-[#009444]">
                 Products
-              </Link>
+              </Link> */}
               <Link to='/Farmers-Corner' className="text-[#0D3C00] hover:text-[#009444] focus:text-[#009444] font-medium transition-colors py-1 hover:border-b-2 focus:border-b-2 border-[#009444] outline-none">
                 Farmers' Corner
               </Link>

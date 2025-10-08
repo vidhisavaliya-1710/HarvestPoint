@@ -109,7 +109,7 @@ function Home() {
     <Services/>
     <WhoWeAre/>
     <WhatWeDo/>
-    <Product/>
+    {/* <Product/> */}
     <Testimonial/>
     <GreenMovement/>
     <HowWeDoIt/>
