@@ -16,7 +16,7 @@ export default function HowWeDoIt() {
                     <div className="w-full lg:w-1/2 max-w-lg order-2 lg:order-1">
                         {/* Small Heading */}
                         <h2 className="text-green-600 font-semibold mb-3 flex items-center text-sm md:text-base">
-                            <span className="w-1 h-4 md:h-6 mr-2 bg-[#A6CE39]"></span>
+                            <span className="w-1 h-4 md:h-6 mr-2 text-green-600"></span>
                             How We Do It
                         </h2>
 
