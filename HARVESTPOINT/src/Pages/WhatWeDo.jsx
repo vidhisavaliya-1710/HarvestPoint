@@ -1,5 +1,6 @@
 import React from 'react';
-import frame5 from '../assets/images/whatwedo.png'; // Update the path to your image location
+import frame5 from '../assets/images/whatwedo.png'; 
+import { BiSolidDonateHeart } from "react-icons/bi";// Update the path to your image location
 
 export default function FarmersCorner() {
   return (
@@ -19,9 +20,17 @@ export default function FarmersCorner() {
             <div className="mb-4">
               <span className="text-green-700 font-semibold text-sm border-l-4 border-green-600 pl-3">Farmers’ Corner</span>
             </div>
-            <h2 className="text-gray-900 font-extrabold text-[2.5rem] leading-tight mb-6" style={{fontFamily: 'inherit'}}>
-              Our farmers are the heart of HarvestPoint.
-            </h2>
+     <h2
+  className="text-gray-900 font-extrabold text-5xl leading-tight mb-6 "
+  style={{ fontFamily: 'inherit' }}
+>
+  Our farmers are the heart{" "}
+  <BiSolidDonateHeart className="inline-block text-green-700 align-middle mx-2" />
+  of HarvestPoint.
+</h2>
+
+
+
             <p className="mt-2 mb-6 text-gray-700 text-sm">
               Our farmers are the heart of HarvestPoint. We support them so they can do their best and get what they deserve.
             </p>
