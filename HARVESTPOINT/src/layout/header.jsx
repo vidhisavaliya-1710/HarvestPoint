@@ -32,7 +32,7 @@ const Header = () => {
             </div>
             <div className="flex items-center space-x-1">
               <FaEnvelopeOpen size={12} className="sm:size-[14px]" />
-              <span className="truncate">info@harvestpointagro.com</span>
+              <span className="truncate">wecare@farm2mart.com</span>
             </div>
             <div className="flex items-center space-x-1">
               <FaPhoneAlt size={12} className="sm:size-[14px]" />

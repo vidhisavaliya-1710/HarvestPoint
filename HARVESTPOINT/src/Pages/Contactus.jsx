@@ -138,7 +138,7 @@ function ContactUs() {
                 
                 <div className="flex items-center space-x-3">
                   <FaRegEnvelope className="w-4 h-4 sm:w-5 sm:h-5 text-[#009444] flex-shrink-0" />
-                  <p className="text-[#000000] text-sm sm:text-md font-normal">info@yourcompanyname.com</p>
+                  <p className="text-[#000000] text-sm sm:text-md font-normal">wecare@farm2mart.com</p>
                 </div>
               </div>
             </div>
